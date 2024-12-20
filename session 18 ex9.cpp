@@ -162,8 +162,8 @@ void timKiem(){
     for (int i = 0; i < n; i++) {
         if (strcmp(menu[i].name, search) == 0) {
 	        printf("%d, ",menu[i].id);
-			printf("%s: ",menu[i].name);
-			printf("%.2f\n",menu[i].price);
+		printf("%s: ",menu[i].name);
+		printf("%.2f\n",menu[i].price);
                break;
         }
     }
